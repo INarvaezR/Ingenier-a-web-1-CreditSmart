@@ -21,8 +21,8 @@ export const CreditCard = ({ credit}) => {
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                     <div className="detil-item">
-                    <span className="label">Plazo:</span>
-                    <span className="value">hasta {maxTern} meses</span>
+                    <span className="label">Taza de interes:</span>
+                    <span className="value">{InteresRate} % mensual</span>
                 </div>
 
                     <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -32,12 +32,13 @@ export const CreditCard = ({ credit}) => {
                     <span className="label">Plazo:</span>
                     <span className="value">hasta {maxTern} meses</span>
                 </div>
-                
+
                 <div className="detil-item">
                     <span className="label">Plazo:</span>
                     <span className="value">hasta {maxTern} meses</span>
                 </div>
             </div>
+            <button className="btn-primary">solicitar ahora</button>
         </div>
     )
 }
